@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mano Abale | Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Mano Abale</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa fa-bars menu-toggle" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+
+  <section class="hero-image">
+  <div class="hero-text">
+    <h1>Mano Kelvin Abale</h1>
+    <p>Mechanical Engineer | Frontend Developer | Web Designer</p>
+  </div>
+</section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+I am a Mechanical Engineering graduate and a Frontend Developer.  
+I am passionate about building clean, responsive, and user-friendly websites using modern web technologies like HTML, CSS, and JavaScript.  
+I enjoy turning design ideas into functional web experiences and continuously improving my coding skills through personal and freelance projects.
+</p>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects container">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <img src="image/resturant-bg.jpg" alt="Restaurant Project">
+        <h3>Restaurant Website</h3>
+        <p>A simple landing page for a restaurant.</p>
+      </article>
+
+      <article class="project-card">
+        <img src="image/cyberwebz2.png" alt="Portfolio Project">
+        <h3>Portfolio Website</h3>
+        <p>A clean personal portfolio layout.</p>
+      </article>
+
+      <article class="project-card">
+        <img src="image/team.jpg" alt="Business Project">
+        <h3>Business Landing Page</h3>
+        <p>A modern landing page for a startup.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+    <ul class="contact-info">
+      <li>Email: <a href="mailto:manoabale485@gmail.com">manoabale485@gmail.com</a></li>
+      <li>Phone: <a href="tel:+2349034396584">+234 903 439 6584</a></li>
+      <li>WhatsApp: <a href="https://wa.me/2349034396584" target="_blank">+2347054995912</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+    <p>© 2024 Mano Abale</p>
+  </footer>
+
+  <!-- Optional JavaScript for menu toggle -->
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
